@@ -1,0 +1,9 @@
+$TTL 3h
+@ SOA @ nobody.localhost. 42 1d 12h 1w 3h
+                                       ; Serial, Refresh, Retry, Expire, Neg. cache TTL
+
+@       NS      @
+
+; Silence a BIND warning
+@       A       0.255.255.255
+@       AAAA    ::ffff:00ff:dead
