@@ -1,3 +1,4 @@
+adv.strategy.it
 com-151.net
 com-vsa.net
 thepurecambogiaultra.com
@@ -62,7 +63,6 @@ metrigo.com
 simpli.fi
 adnxs.com
 dotomi.com
-edgesuite.net
 wtp101.com
 adform.net
 tapad.com
@@ -274,6 +274,7 @@ ad.seznam.cz
 ad.simgames.net
 ad.slutload.com
 ad.smartclip.net
+ad.scp.smartclip.net
 ad.tbn.ru
 ad.technoratimedia.com
 ad.thewheelof.com
