@@ -5,5 +5,5 @@ $TTL 3h
 @       NS      @
 
 ; Silence a BIND warning
-@       A       0.255.255.255
-@       AAAA    ::ffff:00ff:dead
+*       A       0.255.255.255
+*       AAAA    ::ffff:00ff:dead
