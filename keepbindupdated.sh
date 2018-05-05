@@ -13,7 +13,7 @@ if [ -e blacklist.zone ] && [ "${UPDATE}" == "Already up-to-date." ]; then
 fi
 
 echo "" > blacklist.zone
-for site in $(cat blacklist.txt|sort|uniq); do
+for site in $(cat blacklist.txt|tr [:upper:] [:lower:] |sort|uniq); do
        echo "zone \"$site\"            { type master; file \"${1}/noroute.db\"; };" >> blacklist.zone
 done
 
@@ -27,3 +27,4 @@ if [ -n "$(pidof /sbin/init)" ]; then
 elif [ -n "$(pidof systemd)" ]; then
        systemctl restart named
 fi
+
